@@ -10,8 +10,8 @@
     "start:dev": "nodemon --watch . --exec \"yarn dev\" -e ts,js,json",
     "dev": "ts-node main.ts",
     "build": "tsc",
-    "lint:style": "eslint --ext .ts,.js,.json src/*",
-    "lint:style:fix": "yarn lint:styles --fix"
+    "lint:style": "eslint --ext .ts,.js .",
+    "lint:style:fix": "yarn lint:style --fix"
   },
   "dependencies": {
     "express": "^4.17.3"

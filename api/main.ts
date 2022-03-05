@@ -1,5 +1,5 @@
 
-import express, { Request, Response, NextFunction } from 'express'
+import express, { Request, Response } from 'express'
 import { routes } from './src/routes'
 
 const app = express()
