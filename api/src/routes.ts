@@ -6,5 +6,5 @@ const routes = Router()
 routes.use('/internal', internalRouter)
 
 export {
-   routes
+    routes
 }

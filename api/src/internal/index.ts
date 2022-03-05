@@ -6,5 +6,5 @@ const internalRouter = Router()
 internalRouter.get('/health', healthChecker)
 
 export {
-   internalRouter
+    internalRouter
 }
